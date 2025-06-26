@@ -63,7 +63,7 @@ interface ${componentName}Props {
 
 const ${componentName}: React.FC<${componentName}Props> = () => {
   return (
-    <div class="component">
+    <div className="component">
       <h1>Hello from ${componentName}!</h1>
     </div>
   );
