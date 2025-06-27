@@ -7,14 +7,7 @@ export default defineConfig({
 	plugins: [
 		react(),
 		tsxBoilerplatePlugin({
-			// Optional: Specify directories to watch (defaults to ['src'])
-			// watchDirs: ['src/components', 'src/pages'],
-			// Optional: Provide a custom boilerplate function
-			// getBoilerplateContent: (filePath, componentName) => {
-			//   return `// Custom boilerplate for ${componentName}
-			//   import React from 'react';
-			//   export const ${componentName} = () => <div>${componentName}</div>;
-			//   `;
+			// watchDirs: ['src/components'],
 			// },
 		}),
 	],
